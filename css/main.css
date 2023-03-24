@@ -1,0 +1,189 @@
+p,h1,h2,h3{
+    margin: 0; 
+    padding: 0;
+}
+
+/*nav*/
+
+.nav-sec{
+    width: 100%; 
+    height: 200px;
+    display: inline;
+}
+
+.logo{
+    float: left;
+}
+.steam
+ a{
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 10%;
+    padding-left: 20px;
+}
+
+h3.steam{
+    padding-top: 40px;
+}
+
+.nav-links{
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+li{
+    padding: 20px;    
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    color: black;
+}
+
+/*header*/
+
+header{
+    width: 100%; 
+    height: 700px;
+    background-color: rgb(173, 173, 173);
+}
+
+.hero{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
+
+.play-shuf{
+    display: inline;
+}
+
+.play{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.clear-btn{
+    color: black;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.fav-hero{
+    margin-top: 30px;
+    color: black;
+}
+
+/*body*/
+
+.alb-cover{
+    background-color: grey;
+    width: 650px; 
+    height: 450px;
+    margin-left: 20%;
+    margin-top: -500px;
+}
+
+.feature{ 
+    background-color: lightgrey;
+    width: 800px;
+    height: 500px;
+    padding-top: 70px;
+    padding-left: 150px;
+    margin-top: -50px;
+    margin-left: 45%;
+}
+
+.feature p{
+    width: 50%;
+}
+
+.arrow{
+    float: right;
+    margin-right: 20px;
+    margin-top: 130px;
+}
+.container-fluid{
+    margin-top: 200px; 
+}
+.col-3{
+    height: 300px;
+    margin: 40px;
+    margin-left: 50px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+
+
+/*form*/ 
+form{
+    background-color: rgb(117, 117, 117);
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+}
+
+legend{
+    padding-top: 10px;
+}
+
+button{
+    width: 200px !important;
+    float: right;
+    margin-bottom: 200px;
+    background-color: black;
+}
+
+.inpt-type{
+    width: 90%; 
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-radius: 40px;
+    border: none; 
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.col-6 p{
+    width: 50%;
+}
+
+.copy{
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.mail{
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
