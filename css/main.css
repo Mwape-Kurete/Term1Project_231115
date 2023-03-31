@@ -160,6 +160,7 @@ header{
     cursor: pointer;
 }
 */
+
 .fav-play{
     width: 60px;
     height: 60px;
@@ -308,4 +309,28 @@ textarea{
     height: 200px;
     width: 520px;
     margin-top: 120px;
+}
+
+/*playlist page*/
+.label{
+    font-weight: bold;
+}
+
+.caard{
+    background-color: rgb(148, 148, 148);
+    height: 470px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    padding-top: 35%;
+    color: white;
+    margin-top: 20px;
+}
+
+.playPage{
+    margin-top: 40px;
+}
+
+.playlist-list{
+    margin-inline-end: 20px;
 }
