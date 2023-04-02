@@ -364,5 +364,15 @@ textarea{
 
 
 .col-4{
-    align-content: center;
+    font-display: center;
+    
+}
+
+.img-sml-sqr{
+    float: left;
+    background-color: #2b2b2b;
+    width: 70px; 
+    height: 70px;
+    margin-right: 30px;
+    
 }
