@@ -5,6 +5,13 @@ p,h1,h2,h3{
 
 /*nav*/
 
+.nav-sec-home{
+    width: 100%; 
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+}
+
 .nav-sec{
     width: 100%; 
     height: 200px;
@@ -83,8 +90,19 @@ a:hover{
 header{
     width: 100%; 
     height: 850px;
-    background-color: rgb(173, 173, 173);
+    background-image: url("../assets/images/featured-artist.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
+.cover-img-overlay{
+    width: 100%;
+    height: 850px;
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 100px; 
+    padding-left: 10%;
+}
+
 
 .hero{
     width: 50%;
@@ -144,7 +162,7 @@ header{
 
 .feature{ 
     background-color: lightgrey;
-    width: 600px;
+    width: 640px;
     height: 500px;
     padding-top: 70px;
     padding-left: 100px;
@@ -154,8 +172,9 @@ header{
 }
 
 .feature p{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
 }
 
 .arrow{
@@ -177,6 +196,114 @@ header{
     background-color: lightgrey;
 }
 
+/*homepage img placements*/
+/*recent*/
+.col3-one{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/recent1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.col3-two{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/recent2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-three{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/recent3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-four{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/recent4.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/*popular*/
+.col3-one-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.col3-two-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-three-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-four-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular4.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/*row2*/
+.col3-five-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular5.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.col3-six-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular6.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-seven-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular7.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.col3-eight-pop{
+    width: 277px;
+    height: 277px;
+    background-image: url("../assets/images/popular8.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+/*end of homepage img placements*/
 .covers{
     margin-top: 228px;
 }
@@ -195,11 +322,11 @@ header{
     cursor: pointer;
 }
 */
-.overlay{
+.overlay-info{
     opacity: 0;
 }
 
-.overlay:hover{
+.overlay-info:hover{
     opacity: 1;
     cursor: pointer; 
 }
