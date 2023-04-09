@@ -3,6 +3,9 @@ p,h1,h2,h3{
     padding: 0;
 }
 
+body{
+    background-color: rgb(141, 153, 174);
+}
 /*nav*/
 
 .nav-sec-home{
@@ -10,11 +13,13 @@ p,h1,h2,h3{
     height: 200px;
     margin-left: -80px;
     margin-top: -80px;
+    color: white;
 }
 
 .nav-sec{
     width: 100%; 
     height: 200px;
+    color: rgb(43, 45, 66);
 }
 
 .logo{
@@ -29,8 +34,15 @@ p,h1,h2,h3{
     margin-right: 10px;
 }
 
+.steam-home{
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    float: left;
+}
+
 .steam{
-    color: black;
+    color: rgb(43, 45, 66);
     font-weight: bold;
     padding-left: 5px;
     float: left;
@@ -43,7 +55,9 @@ h3.steam{
 .nav-links{
     margin-left: 50px;
     display: inline-block;
+    color: white;
 }
+
 
 li{  
     padding-top: 10px;
@@ -53,12 +67,11 @@ li{
 
 a{
     text-decoration: none;
-    color:black;
 }
 
 a:hover{
-    text-decoration-line: underline;
-    color: black;
+    color: rgb(141, 153, 174);
+    font-style: italic;
 }
 
 .search{
@@ -67,8 +80,8 @@ a:hover{
     margin-right: 50px;
     margin-top: 30px;
     padding-top: 50px;
-    color: black;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid white;
     border-radius: 25px;
     padding: 5px;
 }
@@ -117,10 +130,10 @@ header{
 }
 
 .play{
-    background-color: black;
+    background-color: rgb(43, 45, 66);
     color: white;
     font-weight: bolder;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 25px;
     width: 225px;
     text-align: center;
@@ -131,9 +144,9 @@ header{
 }
 
 .clear-btn{
-    color: black;
+    color: white;
     font-weight: bolder;
-    border: 3px solid black;
+    border: 3px solid rgb(43, 45, 66);
     border-radius: 25px;
     width: 225px;
     text-align: center;
@@ -141,6 +154,10 @@ header{
     float: left;
     margin-top: 70px;     
     margin-right: 20px;
+}
+
+.hero{
+    color: white;
 }
 
 .fav-hero{
@@ -153,7 +170,7 @@ header{
 
 
 .alb-cover{
-    background-color: grey;
+    background-color: rgb(141, 153, 174);
     width: 530px; 
     height: 330px;
     margin-left: 15%;
@@ -161,7 +178,8 @@ header{
 }
 
 .feature{ 
-    background-color: lightgrey;
+    background-color: rgb(43, 45, 66);
+    color: white;
     width: 640px;
     height: 500px;
     padding-top: 70px;
@@ -308,12 +326,13 @@ header{
     margin-top: 228px;
 }
 
-/*
+
 .overlay{
     width: 277px;
     height: 277px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top:80px; 
+    background-color: rgba(0,0,0,0.8);
+    margin-top: -80px;
+    margin-left: -11.12px;
     opacity: 0;
 }
 
@@ -321,7 +340,7 @@ header{
     opacity: 1;
     cursor: pointer;
 }
-*/
+
 .overlay-info{
     opacity: 0;
 }
@@ -380,11 +399,12 @@ footer p{
 
 /*form*/ 
 form{
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(237, 242, 244);
     height: 600px;
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 100px;
+    border-radius: 25px;
 }
 
 legend{
@@ -397,7 +417,7 @@ button{
     height: 50px;
     float: right;
     margin-bottom: 200px;
-    background-color: black;
+    background-color: rgb(217, 4, 41);
     color: white;
     margin-top: 10px;
     margin-left: 30px; 
@@ -417,8 +437,8 @@ button:hover{
     height: 50px;
     float: right;
     margin-bottom: 200px;
-    background-color: rgb(102, 1, 1);
-    color: rgb(255, 255, 255);
+    background-color: rgb(237, 242, 244);
+    color: black;
     margin-top: 10px;
     margin-left: 30px; 
     margin-right: 30px;
@@ -439,10 +459,10 @@ button:hover{
     margin-left: 30px; 
     margin-right: 30px;
     margin-bottom: 25px;
-    padding-left: 15px;
+    padding-left: 20px;
     border-radius: 40px;
     border: none; 
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(43, 45, 66);
     color: white;
 }
 
@@ -452,10 +472,10 @@ textarea{
     margin-top: 10px;
     margin-left: 30px; 
     margin-right: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
     border-radius: 40px;
     border: none; 
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(43, 45, 66);
     color: white;
 }
 
