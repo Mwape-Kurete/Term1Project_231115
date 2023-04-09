@@ -384,20 +384,55 @@ textarea{
 }
 
 /*playlist page*/
+
+#active{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid #2b2b2b;
+}
+
 .label{
     font-weight: bold;
 }
 
+.second-hlf-top1{
+    margin-left: 100px;
+}
+
+.second-hlf-top{
+    margin-left: 40px;
+}
+
+.second-hlf1{
+    margin-left: 80px;
+}
+
+.second-hlf{
+    margin-left: 30px;
+}
+
 .caard{
     background-color: rgb(148, 148, 148);
-    height: 670px;
+    height: 470px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
     padding-top: 35%;
     color: white;
-    margin-top: 20px;
+    margin-top: 80px;
 }
+.meta{
+    width: 100%;
+}
+
+.meta ul{
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.meta li{
+    padding-bottom: 8px;
+}
+
 
 .playPage{
     margin-top: 40px;
@@ -443,16 +478,21 @@ textarea{
     display: inline-block;
 }
 
-.fav-options{ 
-    float: right;
-}
+
 
 .current-meta{
     width: 100px;
-    margin-left: 300px;
+    margin-right: 100px;
     margin-top: 10px;
     font-size: large;
-    display: inline-block;
+    font-weight: bold;
+    float: right;
+}
+
+.fav-options{ 
+    width: 40px;
+    margin-left: 300px;
+    margin-top: -50px;
 }
 
 
