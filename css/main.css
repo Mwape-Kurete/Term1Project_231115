@@ -402,18 +402,22 @@ textarea{
 .second-hlf-top{
     margin-left: 40px;
 }
-
-.second-hlf1{
-    margin-left: 80px;
+.current-playing{
+    width: 15px;
+    margin-bottom: 20px;
 }
 
 .second-hlf{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .caard{
-    background-color: rgb(148, 148, 148);
+    background-image: url("/assets/images/fav-laylist.jpg");
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
     height: 470px;
+    width: 600px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
@@ -421,6 +425,12 @@ textarea{
     color: white;
     margin-top: 80px;
 }
+
+
+.caard h1{
+    margin-bottom: 30px;
+}
+
 .meta{
     width: 100%;
 }
@@ -433,6 +443,9 @@ textarea{
     padding-bottom: 8px;
 }
 
+.song-title{
+    margin-right: 40px;
+}
 
 .playPage{
     margin-top: 40px;
