@@ -434,11 +434,27 @@ textarea{
     margin-top: -18px;
 }
 
-
-.col-4{
-    font-display: center;
-    
+.current-play{
+    float: right;
+    margin-right: 100px;
 }
+
+.time-4{
+    display: inline-block;
+}
+
+.fav-options{ 
+    float: right;
+}
+
+.current-meta{
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: large;
+    display: inline-block;
+}
+
 
 .img-sml-sqr{
     float: left;
