@@ -9,9 +9,16 @@ p,h1,h2,h3{
     width: 100%; 
     height: 200px;
 }
-
 .logo{
+    display: inline-block;
+}
+
+#logo-fav{
     float: left;
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-right: 10px;
 }
 
 .steam{
