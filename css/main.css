@@ -607,19 +607,19 @@ textarea{
 .line{
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .fill-line {
     width: 50%;
     height: 5px;
-    background-color: #2b2b2b;
+    background-color: whitesmoke;
 }
 
 .marker {
     width: 30px;
     height: 30px;
-    background-color: #2b2b2b;
+    background-color: whitesmoke;
     border-radius: 40px;
     margin: 0 auto;
     margin-top: -18px;
