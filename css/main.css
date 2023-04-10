@@ -646,12 +646,12 @@ textarea{
 
 .caard h1{
     margin-bottom: 15px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive !important;
     font-size: 64px;
 }
 .caard h2{
     margin-bottom: 15px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif !important;
     font-size: 64px;
 }
 
